@@ -1,0 +1,54 @@
+{
+  "title": "Cards",
+  "background": "https://source.unsplash.com/JgOeRuGD_Y4/1920x1280",
+  "cards": [
+    {
+      "title": "Google",
+      "background": "#ffffff",
+      "icon": "google",
+      "iconColor": "#000000",
+      "link": "http://google.ca"
+    }, {
+      "title": "Facebook",
+      "background": "#1877f2",
+      "icon": "facebook",
+      "link": "http://facebook.com"
+    }, {
+      "title": "Instagram",
+      "background": "#e1306c",
+      "icon": "instagram",
+      "link": "http://instagram.com"
+    }, {
+      "title": "Reddit",
+      "background": "#ff4500",
+      "icon": "reddit",
+      "link": "http://reddit.com"
+    }, {
+      "title": "Youtube",
+      "background": "#ff0000",
+      "icon": "youtube",
+      "link": "http://youtube.com"
+    }, {
+      "title": "Github",
+      "background": "#ffffff",
+      "icon": "github",
+      "iconColor": "#000000",
+      "link": "http://github.com"
+    }, {
+      "title": "Amazon",
+      "background": "#ff9900",
+      "icon": "amazon",
+      "link": "http://amazon.com"
+    }, {
+      "title": "Twitter",
+      "background": "#1da1f2",
+      "icon": "twitter",
+      "link": "http://twitter.com"
+    }, {
+      "title": "Netflix",
+      "background": "#e50914",
+      "icon": "netflix",
+      "link": "http://netflix.com"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+html, body {
+  font-family: "Product Sans";
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-holder {
+  margin: 10rem auto 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  width: 188px;
+  height: 120px;
+  margin: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .icon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  font-size: 70px;
+  line-height: 70px;
+  color: white;
+}
+
+.card .title {
+  position: absolute;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2rem;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  height: 2rem;
+  left: 0;
+  bottom: -2rem;
+  text-align: center;
+  text-shadow: none;
+  pointer-events: none;
+  opacity: 0;
+  transition: all ease-in-out 150ms;
+}
+
+.card:hover .title {
+  opacity: 1;
+}
