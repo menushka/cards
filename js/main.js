@@ -1,5 +1,5 @@
 async function loadSettings() {
-  const response = await fetch('./data/settings.json');
+  const response = await fetch('./settings/settings.json');
   const data = await response.json();
   return data;
 }

@@ -6,7 +6,6 @@ html, body {
 }
 
 body {
-  position: absolute;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -14,7 +13,7 @@ body {
 }
 
 .card-holder {
-  margin: 10rem auto 0 auto;
+  margin: 10rem auto 5rem auto;
   width: 100%;
   max-width: 1200px;
   display: flex;
