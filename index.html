@@ -18,8 +18,11 @@
     <script id="cards-template" type="text/x-handlebars-template">
       {{#each cards}}
         <a class="card" style="background-color: {{this.background}};" href="{{this.link}}">
-          <!-- <img class="icon" src="{{this.icon}}" /> -->
-          <span class="icon mdi mdi-{{this.icon}}" style="color: {{this.iconColor}};"></span>
+          {{#isMaterialDesignIcon this.icon}}
+            <span class="icon mdi mdi-{{this.icon}}" style="color: {{this.iconColor}};"></span>
+          {{else}}
+            <img class="icon svg" src="{{this.icon}}" />
+          {{/isMaterialDesignIcon}}
           <span class="title">{{this.title}}</span>
         </a>
       {{/each}}

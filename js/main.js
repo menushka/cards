@@ -1,3 +1,11 @@
+Handlebars.registerHelper("isMaterialDesignIcon", function(icon, options){
+  if (!icon.startsWith("/assets")) {
+      return options.fn(this);
+  } else {
+      return options.inverse(this);
+  }
+});
+
 async function loadSettings() {
   const response = await fetch('./settings/settings.json');
   const data = await response.json();
@@ -27,4 +35,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   await renderCards(settings);
+
+  if (typeof window.ontouchstart === "object") {
+    document.body.classList.add("mobile")
+  }
 });

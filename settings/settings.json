@@ -49,6 +49,11 @@
       "background": "#e50914",
       "icon": "netflix",
       "link": "http://netflix.com"
+    }, {
+      "title": "Hulu",
+      "background": "#1CE783",
+      "icon": "/assets/hulu.svg",
+      "link": "https://www.hulu.com/"
     }
   ]
 }

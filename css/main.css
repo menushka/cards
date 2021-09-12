@@ -70,3 +70,25 @@ body {
 .card:hover .title {
   opacity: 1;
 }
+
+.mobile .card-holder {
+  margin: 5rem auto 5rem auto;
+}
+
+.mobile .card {
+  width: 40vw;
+  height: calc(40vw * 120 / 188);
+  margin: 1.2rem 2vw;
+  transform: translateY(-5px);
+}
+
+.mobile .card .icon {
+  width: calc(40vw * 70 / 188);
+  height: calc(40vw * 70 / 188);
+  font-size: calc(40vw * 70 / 188);
+  line-height: calc(40vw * 70 / 188);
+}
+
+.mobile .card .title {
+  opacity: 1;
+}
